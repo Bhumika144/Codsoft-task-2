@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background: url('https://c0.wallpaperflare.com/preview/984/867/753/jewellery-gold-wedding-indian.jpg');
+    background-size: cover;
+    background: linear-gradient(grey);
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.style {
+    font-size: 30px;
+    background: transparent;
+    color: rgb(66, 1, 1);
+    letter-spacing: 2px;
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-top: 0%;
+}
+
+.head a{
+    padding: 20px 40px;
+    text-decoration: none;
+    color: rgb(18, 68, 39);
+    font-size: 40px;
+}
+
+.head a:hover{
+    color: red;
+    background: scroll;
+    background-color: rgb(241, 240, 239);
+    border-radius: 8px;
+}
+
+.new{
+    position: absolute;
+    max-width: 650px;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+
+.new h1{
+    font-size: 50px;
+    color: rgb(23, 97, 16);
+    font-weight: bold;
+}
+
+.new span{
+    font-size: 20px;
+}
+
+.new h4{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(226, 17, 17);
+}
+
+footer{
+    padding: 30px 50px;
+    background-color: grey;
+    color: black;
+    align-items: center;
+    text-align: center;
+
+}
